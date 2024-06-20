@@ -47,14 +47,12 @@ But, you do need to specify the node to use. Luckily there are a few standard no
 $ ssh-keygen -t ed25519
 ```
 
-You'll be prompted for a file name and a password
-
-To make this convenient you can skip providing a password by hitting enter.
+You'll be prompted for a file name and a password. The default filename is just `ed25519`, which is likely fine for most purposes.
 
 ---
 ### Adding Your SSH Key
 
-Now in `~/.ssh` you should have a file `keyname.pub` (keyname defaults to `ed25519`). 
+Now in `~/.ssh` you should have a file `filename.pub` (where filename is what you gave above). 
 
 Upload this at [this website](https://ldg.ligo.org/ldg/manage_ssh/)
 
@@ -368,3 +366,22 @@ But, it's important to know how to check on them, and find the outputs when bugf
 - Anecdotally [VS Code](https://code.visualstudio.com/) is used by most of the grads/post-docs
 	- I can also guarantee that it works on the cluster via the `ssh` extension and has a `jupyter` extension
 - Other options include [pycharm](https://www.jetbrains.com/pycharm/) and [spyder](https://www.spyder-ide.org/)
+
+---
+
+# Conclusion
+
+---
+## Final Thoughts
+
+ Coding doesn't need to suck! 
+
+If something seems really obnoxious or difficult, smart people have probably made tools or found techniques to make it better. 
+
+These seminars will introduce you to some of these things, but also seek them out on your own!
+
+---
+## Useful Resources
+
+- A [unix commands cheatsheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
+- 
