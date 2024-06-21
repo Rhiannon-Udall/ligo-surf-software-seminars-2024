@@ -1,3 +1,16 @@
+
+# An Introduction to LIGO Computing
+Rhiannon Udall
+rudall@caltech.edu
+
+---
+
+## Software Seminars Outline
+- Today: introduction to LIGO computing
+- Monday 6/24 at 2 pm: Introduction to git by Lucy Thomas
+- Thursday 6/27 at 2 pm: Reading Code and Writing Readable Code by Kyle Nelli
+
+---
 # Accessing the Cluster
 
 ---
@@ -15,7 +28,7 @@ Text in special font is code that you can execute
 ```sh
 $ echo "Hello World"
 ```
-Where the \\$ means this is a bash command. If you're copying code from these boxes, don't copy the \\$.
+Where the \$ means this is a bash command. If you're copying code from these boxes, don't copy the \$.
 
 Also, whenever you see "albert.einstein" in this presentation (or LDG docs), substitute your own name!
 
@@ -180,7 +193,7 @@ Where x is the version you want (3.11 is a good stable choice).
 To install a new package, we use the same syntax as before, for example:
 
 ```sh
-$ conda install bilby
+$ conda install bilby[gw]
 ```
 This installs the latest version of bilby. Many packages can be installed like this, but not all. `pip` handles those.
 
